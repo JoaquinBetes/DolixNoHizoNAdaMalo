@@ -12,12 +12,16 @@ function change(modalSelect, listaImgTatoos, i, pos, flag){
 		let cant = listImg.length-1
 		if( (posicion.pos < cant ) && flag ){
 			posicion.pos++;
-			modal.innerHTML = `<img class="modal-img" src="imagenes\\tatoos\\${listImg[posicion.pos]}">`;
+			modal.innerHTML = `<img class="modal-img" src="imagenes\\tatoos\\${listImg[posicion.pos]}" >`;
+			let modalImg = document.querySelector(".modal-img");
+			modalImg.style.animation = "modal-anim 0.4s forwards";
 			console.log(posicion.pos);
 		}
 		else if( (posicion.pos > 0) && !flag){
 			posicion.pos--;
 			modal.innerHTML = `<img class="modal-img" src="imagenes\\tatoos\\${listImg[posicion.pos]}">`;
+			let modalImg = document.querySelector(".modal-img");
+			modalImg.style.animation = "modal-anim 0.4s forwards";
 		}
 		return posicion.pos;
 	}
@@ -53,7 +57,6 @@ for(let i = 0; i < 12; i++){
 		constructor(){
 			this.pos= 0;
 		}
-		
 	};
 
 	posicion = new Posicion();
@@ -67,6 +70,8 @@ for(let i = 0; i < 12; i++){
   			top: 445,
   			behavior: 'smooth'
 			});
+		let modalImg = document.querySelector(".modal-img");
+		modalImg.style.animation = "modal-anim 0.9s forwards";
 		let listaImgRep = ["uwu.jpg", "makima.jpg", "bs.jpg", "mazinger.jpg","rei.jpg","hxh.jpg","rocklee.jpg"];
 		if(listaImgRep.includes(listaImgTatoos[i])){
 			modalLeft[i].style.visibility = "visible";
