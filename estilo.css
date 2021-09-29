@@ -208,6 +208,7 @@ body {
 	top: 0.4em;
 }
 
+
 .font_animation1{
 	position: absolute;
 	left: 13.8vw;
@@ -397,4 +398,132 @@ body {
 	transform: scale(1.07);
 	text-shadow: 0 0 4px #ABABAB70;
 	cursor: pointer;
+}
+
+.conteiner{
+	
+	padding-bottom: 4vw;
+
+}
+
+form{
+	width: 70%;
+	margin: 3% auto 3% auto;
+	background-color: var(--negro);
+	padding: 2%;
+	border-radius: var(--radio);
+}
+
+.query-tattoo{
+	display: inline-block;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-top: 2px;
+	padding-bottom: 1%;
+	border:none;
+	background-color: transparent;
+	border-top:4px solid #FF67E7C4;
+	letter-spacing: 3px;
+	font-weight: bold;
+	color: #C4C4C4;
+	outline: none;
+	
+
+
+}
+.query-tattoo::placeholder{
+	color: #C4C4C4;
+	text-align: center;
+	transition: all 0.6s;
+}
+
+.query-tattoo:hover{
+	cursor: pointer;
+}
+
+.query-tattoo:hover::placeholder{
+	transform: scale(1.07);
+
+}
+
+.query-tattoo:focus{
+	outline: none;
+}
+
+.descripcion{
+	width: 100%;
+	padding-bottom: 9%;
+}
+
+.file{
+	border-top:none;
+}
+
+.submit{
+	width: 40%;
+	padding-top: 1.2%;
+	padding-bottom: 1.2%;	
+	margin: auto;
+	border-top:none;
+	border: 3px solid #FF67E7EF;
+	font-size: 1.1vw;
+	letter-spacing: 0px;
+	color: #FF67E7F0;
+	border-radius: 4px;
+	transition: background-color 0.5s;
+	
+
+}
+
+.submit:hover, .file-button:hover{
+	background-color: #FF67E7EF;
+	color: #232323;
+	cursor: pointer;
+}
+
+.conteiner_title{
+	margin-left: 1.5%;
+	display: block;
+}
+
+.file-button{
+	background-color: transparent;
+	color: #FF67E7EF;
+	display: block;
+	border:3px solid #FF67E7EF;
+	border-radius: 4px;
+	position: relative;
+	height: 40px;
+	width: 40%;
+	margin-bottom: 5%;
+	padding-top: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: background-color 0.5s;
+	
+}
+
+
+
+.file{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	opacity: 0;
+}
+.file:hover{
+	cursor: pointer;
+}
+
+
+
+#map {
+  height: 500px;
+  width:100%;
+  border-radius: var(--radio);
 }
