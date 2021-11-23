@@ -11,7 +11,7 @@ for(let i = 0; i < 12; i++){
 	tattoosBox.innerHTML = `<img src="imagenes\\tatoos\\${listaImgTatoos[i]}" class = "tattoos-box__img" loading="lazy">`
 	tattoosBox.innerHTML += `<span class="tattoos-name">${listaTatoos[i]}</span>`;
 	
-
+	console.log("OMG");
 	documentFragment.appendChild(tattoosBox);
 }
 
