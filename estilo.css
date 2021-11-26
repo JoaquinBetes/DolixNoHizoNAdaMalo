@@ -272,9 +272,9 @@ body {
 }
 
 .profile_text{
-	font-size: 2.2vw;
+	font-size: 2.40vw;
 	text-shadow: 0 0 5.5px rgba(0,0,0,0.68), 0 0 25px rgba(0,0,0,0.65);
-	line-height: 1.085em;
+	line-height: 1.1em;
 	z-index: 5;
 }
 .sweet-home{
@@ -314,6 +314,7 @@ body {
 .img2{
 	float: right;
 	object-position: 0% 0%;
+	margin-left: 1.1%;
 }
 
 .img3{
@@ -590,7 +591,9 @@ form{
 
 
 #map {
-  height: 500px;
-  width:100%;
-  border-radius: var(--radio);
+	margin-top: 25px;
+	height: 500px;
+	width:100%;
+	border-radius: var(--radio);
+	margin-right: 1.4%;
 }
