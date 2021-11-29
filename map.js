@@ -354,7 +354,7 @@ function initMap() {
 	let marker = new google.maps.Marker({
 		position: { lat: -32.94740193767578, lng: -60.65148053383592 },
 		map,
-		title: "Hello World!",
+		title: "SweetHome Tattoo Studio",
 		label:{
 			text: `Sweet Home Tattoo Studio`,
 			color: '#FDCFFD',
