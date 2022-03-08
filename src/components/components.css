@@ -1,0 +1,15 @@
+.header{
+    display: block;
+    background-color: var(--fondo);
+    border-radius: var(--radio);
+    padding: 3vw;
+    margin: 3vw 3vw 3vw 3vw;
+    font-size: 10vw;
+    font-weight:bold;
+
+}
+.header-list{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+}

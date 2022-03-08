@@ -1,0 +1,33 @@
+:root{
+	--blanco_fondo:#b4b4b4;
+	--fondo:rgba(67, 67, 67, 0.62);
+	--fondo2:rgba(67, 67, 67, 0.75);
+	--negro:rgba(0,0,0,0.55);
+	--radio:7px;
+	--rosa_p:#FF67E7;
+	--violeta_p:#C400FF;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+  font-family:"XXII Ultimate Black Metal";
+  src: url("fonts/XXII-Ultimate-Black-Metal.ttf");
+}
+@font-face{
+  font-family:"Starjedi";
+  src: url("fonts/Starjhol.ttf");
+}
+
+body {
+	background-image: url("../img/fondo6.jpg");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	color: var(--blanco_fondo);
+	font-family: 'Crimson Text', serif;
+	
+}
