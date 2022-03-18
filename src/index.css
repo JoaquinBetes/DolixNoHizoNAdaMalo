@@ -24,7 +24,7 @@
 }
 
 body {
-	background-image: url("../img/fondo6.jpg");
+	background-image: url("./img/fondo6.jpg");
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 	color: var(--blanco_fondo);

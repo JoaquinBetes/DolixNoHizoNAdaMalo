@@ -23,6 +23,7 @@
     font-size: 8vw;
     display: block;
     position: relative;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Yanone+Kaffeesatz&display=swap');
@@ -34,7 +35,7 @@
     user-select: none;
     display: flex;
     justify-content: center;
-    height: 200px;
+    height:90px;
 }
 .title, .title-a1, .title-a2{
     position: absolute;
@@ -67,9 +68,7 @@
     animation-delay: 1.1s;
     user-select: none;
 }
-
 @keyframes font_anim1{
-
 	25%{
 		transform: translate(3.87%,14.5%);
 	}
@@ -84,7 +83,6 @@
 	}
 }
 @keyframes font_anim2{
-
 	25%{
 		transform: translate(-3.87%,12.5%);
 	}
@@ -97,4 +95,49 @@
 	100%{
 		transform: translate(0,0);
 	}
+}
+
+.tattoo-all-conteiner{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.tattoo-arrow{
+    margin: 0 1.2% 0 1.2%;
+    align-self: center;
+    font-weight: bold;
+    font-size: 10vw;
+}
+
+.tattooBox-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3%;
+    margin-bottom:5%;
+}
+.box{
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.55);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.img-tattoo{
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    height: 90%;
+}
+.name-tattoo{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    font-size: 1.2rem ;
+    justify-content: center;
+    
 }
